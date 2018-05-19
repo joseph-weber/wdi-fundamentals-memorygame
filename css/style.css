@@ -10,7 +10,7 @@ header {
 }
 
 h1 {
-	font-size: 45px;
+	font-size: 65px;
 	font-family: Raleway, sans-serif;
 	font-weight: 400;
 	letter-spacing: 1px;
@@ -58,6 +58,11 @@ img {
 	margin: 40px 8px;
 }
 
+button {
+	font-size: 24px;
+	font-style: italic;
+}
+
 footer {
 	background-color: #0D2C40;
 	color: white;
@@ -90,6 +95,15 @@ footer {
 	font-weight: 700;
 }
 
+.retry{
+	color: #F15B31;
+	border: 8px #F15B31 groove;
+
 a:hover {
 	border-color: white;
+}
+
+.aboutMe
+{text-align: center;
+	color: blue;
 }
