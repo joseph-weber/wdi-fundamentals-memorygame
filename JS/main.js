@@ -33,9 +33,9 @@ var checkForMatch = function () {
 var flipCard = function () {
 	var cardId = this.getAttribute('data-id');
 	 cardsInPlay.push(cards[cardId].rank);
-	console.log("User flipped " + cardId.rank);
-	console.log("User flipped " + cardId.image);
-	console.log("User flipped " + cardId.suit);
+	console.log("User flipped " + cards[cardId].rank);
+	console.log("User flipped " + cards[cardId].image);
+	console.log("User flipped " + cards[cardId].suit);
 	this.setAttribute('src', cards[cardId].image);
 	if (cardsInPlay.length === 2)
 	{checkForMatch()}};
@@ -50,4 +50,11 @@ var createBoard = function() {
 }
 };
 createBoard();
+
+var reset = function () {
+	var button = document.getElementById("button")
+        {location.href = "/Users/josephweber/fundamentals/wdi-fundamentals-memorygame/index.html";}}
+        button.addEventListener('click', reset);
+
+ 
 

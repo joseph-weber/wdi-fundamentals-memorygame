@@ -60,7 +60,6 @@ img {
 
 button {
 	font-size: 24px;
-	font-style: italic;
 }
 
 footer {
@@ -96,14 +95,24 @@ footer {
 }
 
 .retry{
-	color: #F15B31;
-	border: 8px #F15B31 groove;
+	border-radius: 25px;
+}
 
 a:hover {
 	border-color: white;
 }
 
-.aboutMe
-{text-align: center;
+.aboutMe {
+	text-align: center;
 	color: blue;
+}
+
+.sam {
+    height: 100px;
+    width: auto;
+    border-radius: 25px;
+    margin: 0 auto;
+    align-content: center;
+    position: relative;
+    left: 30px;
 }
