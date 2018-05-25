@@ -49,6 +49,7 @@ var createBoard = function() {
 	document.getElementById('game-board').appendChild(cardElement);
 }
 };
+
 createBoard();
 
 var reset = function () {
